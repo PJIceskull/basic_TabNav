@@ -4,7 +4,7 @@ Homework 1
 
 ## About Project
 
-**Instructions**
+### Instructions
 
 1. You must create a React Native / Expo application
 2. Your application must have a tab navigation with three pages.
