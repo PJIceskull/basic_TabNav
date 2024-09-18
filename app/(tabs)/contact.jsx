@@ -5,20 +5,18 @@ import { Colors } from "../../constants/Colors";
 export default function contact() {
   return (
     <View>
-      <Text
-        style={{
-          fontFamily: "InriaSans-Bold",
-          fontSize: 48,
-          color: Colors.linkColor,
-        }}
-      >
-        Contact
-      </Text>
-      {/* <View>
-        <Text></Text>
-      </View> */}
-
       <SafeAreaView style={{ margin: "auto" }}>
+        <Text
+          style={{
+            fontFamily: "InriaSans-Bold",
+            fontSize: 48,
+            color: Colors.linkColor,
+            marginBottom: 15,
+          }}
+        >
+          Contact
+        </Text>
+
         <View style={styles.groupWrap}>
           <View style={styles.inputWrap}>
             <Text style={styles.textLabel}>First Name</Text>
