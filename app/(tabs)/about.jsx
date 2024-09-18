@@ -1,10 +1,10 @@
-import { View, Text, StyleSheet, Image } from "react-native";
+import { View, Text, StyleSheet, Image, SafeAreaView } from "react-native";
 import React from "react";
 import { Colors } from "../../constants/Colors";
 
 export default function about() {
   return (
-    <View style={{ height: 100 }}>
+    <SafeAreaView style={{ flex: 1 }}>
       <Text
         style={{
           fontFamily: "InriaSans-Bold",
@@ -67,7 +67,7 @@ export default function about() {
           </Text>
         </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
 
