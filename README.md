@@ -16,3 +16,5 @@ Homework 1
 5. This must run in Expo and on an Android Emulator
 
 ## How to Run Project
+
+1. Download Project through cloning or by downloading the zip file.
